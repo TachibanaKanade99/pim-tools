@@ -1,0 +1,38 @@
+INSERT INTO EMPLOYEE (VISA, FIRST_NAME, LAST_NAME, BIRTH_DATE, VERSION)
+VALUES
+    ('PHA', 'TUAN', 'MINH', '2021-10-12', 0),
+    ('PHU', 'FEMPLOYEE1', 'LUSER1', '2021-10-12', 0),
+    ('PAU', 'FEMPLOYEE2', 'LUSER2', '2022-10-12', 0),
+    ('HAU', 'FEMPLOYEE3', 'LUSER3', '2023-10-12', 0);
+
+INSERT INTO GROUP_TABLE (GROUP_LEADER_ID, VERSION)
+VALUES
+    (1, 0),
+    (2, 0),
+    (3, 0),
+    (4, 0);
+
+INSERT INTO PROJECT (GROUP_TABLE_ID, PROJECT_NUMBER, NAME, CUSTOMER, STATUS, START_DATE, END_DATE, VERSION)
+VALUES
+    (1, 10, 'EFV', 'PHAU', 'FIN' ,'2020-04-20', '2020-04-30', 0),
+    (2, 11, 'CXTRANET', 'LEN', 'NEW' ,'2020-04-25', '2020-05-25', 0),
+    (3, 12, 'CRYSTAL BALL', 'HUH', 'NEW' ,'2020-04-28', '2020-06-20', 0),
+    (3, 13, 'IOC CLIENT EXTRANET', 'GOG', 'INP' ,'2020-06-07', '2020-10-12', 0),
+    (4, 16, 'TRADEECO', 'LUN', 'FIN', '2020-06-08', '2020-12-10', 0),
+    (1, 20, 'ABCXYZ', 'Les Retaitres Popularies', 'PLA', '2019-06-08', '2021-01-10', 0),
+    (4, 21, 'DELETE PROJECT 1', 'abc 1', 'NEW', '2022-06-08', '2022-10-21', 0),
+    (1, 22, 'DELETE PROJECT 2', 'abc 2', 'NEW', '2020-06-08', '2021-01-10', 0),
+    (2, 15, 'TEST PROJECT 3', 'abc 3', 'NEW', '2020-06-08', '2021-01-10', 0),
+    (2, 50, 'TEST PROJECT 4', 'abc 4', 'FIN', '2021-06-08', '2022-01-28', 0),
+    (3, 100, 'TEST PROJECT 5', 'abc 5', 'INP', '2022-06-08', '2023-01-30', 0),
+    (4, 150, 'TEST PROJECT 6', 'abc 6', 'NEW', '2020-07-08', '2023-01-10', 0),
+    (1, 120, 'TEST PROJECT 7', 'abc 7', 'PLA', '2020-10-08', '2021-01-20', 0);
+
+INSERT INTO PROJECT_EMPLOYEE (PROJECT_ID, EMPLOYEE_ID)
+VALUES
+    (1, 1),
+    (1, 2),
+    (1, 3),
+    (2, 4),
+    (2, 2),
+    (3, 1);

@@ -1,0 +1,55 @@
+.new-project-legend {
+    margin-top: 23px;
+    padding-bottom: 10px;
+    font-size: 18pt;
+    font-weight: 600;
+    color: #666666;
+    border-bottom: #666666 1px solid;
+}
+
+.form-label {
+    font-family:'Segoe UI' !important;
+    font-size: 14pt !important;
+    font-weight: 600 !important;
+    color: #666666 !important;
+}
+
+.form-input {
+    height: 30px !important;
+}
+
+.form-space {
+    margin-bottom: 38px !important;
+}
+
+.form-required {
+    color: red;
+    margin-left: 10px;
+}
+
+.input-padding {
+    padding: 7px 0px;
+}
+
+#cancel-btn {
+    height: 35px;
+    width: 100%;
+    background-color: #B9B9B9 !important;
+    color: #333333;
+    border-color: #B9B9B9;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#submit-btn {
+    height: 35px;
+    width: 100%;
+    background-color: #2F85FA;
+    border-color: #2F85FA;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.MuiIconButton-root {
+    padding: 0 !important;
+}

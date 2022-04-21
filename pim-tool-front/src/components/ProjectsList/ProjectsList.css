@@ -1,0 +1,32 @@
+td {
+    font-family: 'Segoe UI';
+    font-size: 14pt;
+    font-weight: 600;
+    color: #666666;
+}
+
+.projects-list-legend {
+    margin-top: 23px;
+    padding-bottom: 10px;
+    font-size: 18pt;
+    font-weight: 600;
+    color: #666666;
+    border-bottom: #666666 1px solid;
+}
+
+.input-padding {
+    padding: 7px 0px;
+}
+
+.placeholder-select-font {
+    color: #6c757d !important;
+}
+
+.custom-checkbox {
+    width: 15px;
+    height: 15px;
+}
+
+.selected-text {
+    font-weight: 500;
+}

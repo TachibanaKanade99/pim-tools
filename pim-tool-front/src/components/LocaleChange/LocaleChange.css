@@ -1,0 +1,9 @@
+.locale-select {
+    /* color: #2f85fa; */
+    /* color: #666666; */
+    font-weight: 500;
+}
+
+.locale-select:hover {
+    color: #2f85fa;
+}
